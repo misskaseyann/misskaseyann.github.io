@@ -2,8 +2,8 @@
 layout: post
 title: "Make a Free Blog with Jekyll and GitHub Pages"
 excerpt: "Learn how to make your own static website or blog for free using GitHub Pages and Jekyll. This tutorial is very easy and you will be up and running with a blog in no time!"
-categories: [cool stuff]
-tags: [zines, programming, resources, tutorial]
+categories: [tutorial]
+tags: [jekyll, programming, resources, tutorial, github, web, ruby]
 comments: true
 image:
   feature: http://i65.tinypic.com/2z8t5is.png

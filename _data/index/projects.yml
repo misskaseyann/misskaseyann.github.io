@@ -1,4 +1,19 @@
-- name: leonids
-  descr: "Bacon ipsum dolor sit amet doner meatball jowl short ribs, chicken prosciutto salami frankfurter. Pig drumstick turducken short ribs, brisket meatloaf ham hock shankle andouille corned beef strip steak. Venison ham bresaola strip steak. Pork belly ribeye prosciutto t-bone."
+- name: Acoustic Event Detection
+  descr: "Acoustic event detection using recurrent neural networks. Dataset used was the UrbanSound8K provided by NYU. Data augmentation utilized with the help of the Scaper Python library."
   image: pong.png
-  github: https://github.com/renyuanz/leonids
+  github: https://github.com/misskaseyann/acoustic-event-detection
+
+- name: IMDB Sentiment Classifier
+  descr: "Using Naive Bayes and Bag of Words to give a binary classification of positive or negitive sentiment for movie reviews."
+  image: pong.png
+  github: https://github.com/misskaseyann/sentiment-classifier
+
+- name: Candy Slayer
+  descr: "It's Halloween and your neighborhood is filled with monsters! It is up to you to save your neighbors. Each game is unique with every variable randomly generated."
+  image: pong.png
+  github: https://github.com/misskaseyann/candy-slayer
+
+- name: Petgotchi
+  descr: "Virtual pet game inspired by Tamagotchi. Raise and take care of your own pet with mini games, toys, and more."
+  image: pong.png
+  github: https://github.com/misskaseyann/350-animal-app

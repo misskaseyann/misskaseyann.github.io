@@ -3,6 +3,7 @@ layout: post
 title: "Zine Culture + Computer Science"
 excerpt: "Computer science and programming are fantastic tools for creativity and building ideas, so why not teach these fundamentals in equally creative ways?"
 categories: [cool stuff]
+tags: [zines, programming, resources, tutorial]
 comments: true
 image:
   feature: http://i67.tinypic.com/256ahxz.png

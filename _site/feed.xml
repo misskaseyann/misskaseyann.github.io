@@ -5,13 +5,144 @@
     <description>A super rad girl dev blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2018-09-15</pubDate>
-    <lastBuildDate>Sat, 15 Sep 2018 23:10:39 -0400</lastBuildDate>
+    <pubDate>2018-09-16</pubDate>
+    <lastBuildDate>Sun, 16 Sep 2018 16:59:15 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
+        <title>Make a Free Blog with Jekyll and GitHub Pages</title>
+        <description>&lt;p&gt;I will be showing you how to create your own free static website. It is super easy and doesn’t take long to get set up. One thing that is required before starting is that you have a &lt;a href=&quot;https://github.com/&quot;&gt;GitHub account&lt;/a&gt;. If you do, then feel free to continue reading. Otherwise, sign up and then meet me back here :)&lt;/p&gt;
+
+&lt;p&gt;Quick note: these instructions are mainly for Unix/Linux OS.&lt;/p&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open your terminal.&lt;/li&gt;
+  &lt;li&gt;Check that you have Ruby 2.1.0 or higher installed:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ruby &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+ruby 2.X.X
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;If you do not have Ruby installed, install it by following directions on their &lt;a href=&quot;https://www.ruby-lang.org/en/documentation/installation/&quot;&gt;website&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Install Bundler:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;gem install bundler
+&lt;span class=&quot;c&quot;&gt;# Installs the Bundler gem&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Download and install Git. For more information see: &lt;a href=&quot;https://help.github.com/articles/set-up-git/&quot;&gt;set up git&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;create-new-site&quot;&gt;Create New Site&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Be sure to direct terminal to where you would like your site folder to be. Create a new site:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll new mysite
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Move into that directory:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;mysite
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Install required gems:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Verify everything is up and running correctly locally:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Browse to &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; to see your website running!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;pick-a-theme&quot;&gt;Pick a Theme&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;Jekyll, when installed, uses a default theme called minima. You can, however, use any theme you like. Here is a &lt;a href=&quot;https://github.com/planetjekyll/awesome-jekyll-themes&quot;&gt;collection of gem-packaged themes&lt;/a&gt; you can pick from if minima is not for you. I will use &lt;a href=&quot;https://github.com/broccolini/swiss&quot;&gt;swiss&lt;/a&gt; as an example.&lt;/li&gt;
+  &lt;li&gt;In your Jekyll site’s &lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt;, replace the line &lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;minima&quot;, &quot;~&amp;gt; 2.0&quot;&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;your-theme-name&quot;&lt;/code&gt; or in my case &lt;code class=&quot;highlighter-rouge&quot;&gt;gem &quot;jekyll-swiss&quot;&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;In your Jekyll site’s &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;, under Build settings, you will see the line &lt;code class=&quot;highlighter-rouge&quot;&gt;theme: minima&lt;/code&gt;. Change that line to &lt;code class=&quot;highlighter-rouge&quot;&gt;theme: your-theme-name&lt;/code&gt; or in my case &lt;code class=&quot;highlighter-rouge&quot;&gt;theme: jekyll-swiss&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Run Bundler to install the theme gem and its dependencies:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;bundle install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Verify everything install correctly:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;jekyll serve
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Browse to &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt; to see your website running with its new theme!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;create-repository-for-your-site&quot;&gt;Create Repository for Your Site&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;In the root folder of your website, initialize a new Git repository for your Jekyll site:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git init
+Initialized empty Git repository &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; /Users/username/mysite/.git/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Add and commit all your files:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git add &lt;span class=&quot;nb&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Initial commit&quot;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Navigate to GitHub and create a &lt;strong&gt;New Repository&lt;/strong&gt; by clicking the &lt;strong&gt;+&lt;/strong&gt; in the upper-right hand corner.&lt;/li&gt;
+  &lt;li&gt;Name your repository &lt;em&gt;username&lt;/em&gt;.github.io, where &lt;em&gt;username&lt;/em&gt; is your username on GitHub. This must exactly match your username or else it won’t work (case sensitive). &lt;img src=&quot;http://i66.tinypic.com/s3llqh.png&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Now push this repository for the command line by typing:
+    &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git remote add origin https://github.com/username/username.github.io.git
+&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;You are done! Navigate your browser to &lt;strong&gt;https://username.github.io&lt;/strong&gt;. This will sometimes take a few minutes.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;quickstart&quot;&gt;Quickstart&lt;/h3&gt;
+&lt;h4 id=&quot;pages&quot;&gt;Pages&lt;/h4&gt;
+&lt;p&gt;These are the basic building blocks. To add a page, just create an HTML file in the root directory with a suitable filename. For a site with a homepage, an about page, and a contact page, here’s what the root directory and associated URLS might look like:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;.
+|-- about.md    # =&amp;gt; http://example.com/about.html
+|-- index.html    # =&amp;gt; http://example.com/
+└── contact.html  # =&amp;gt; http://example.com/contact.html
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;If there are a lot of pages, they can be organized into subfolders. These will exist in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; folder when your site builds.&lt;/p&gt;
+&lt;h4 id=&quot;posts&quot;&gt;Posts&lt;/h4&gt;
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; folder is where your blog posts live. These are typically written in Markdown but HTML is also supported. To create a post, add a file to your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory with the following format:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;YEAR-MONTH-DAY-title.MARKUP
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Where &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used. For example:&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;2018-09-10-how-to-use-jekyll.md
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;All blog post files must begin with &lt;a href=&quot;https://jekyllrb.com/docs/front-matter/&quot;&gt;front matter&lt;/a&gt; which is used for layout and meta data. Here is a simple example:&lt;/p&gt;
+&lt;div class=&quot;language-markdown highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;layout&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;post&lt;/span&gt;
+&lt;span class=&quot;na&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;pi&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Welcome&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;to&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s&quot;&gt;Jekyll!&quot;&lt;/span&gt;
+&lt;span class=&quot;nn&quot;&gt;---&lt;/span&gt;
+
+&lt;span class=&quot;gh&quot;&gt;# Welcome&lt;/span&gt;
+
+&lt;span class=&quot;gs&quot;&gt;**Hello world**&lt;/span&gt;, this is my first Jekyll blog post.
+
+I hope you like it!
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;more-resources&quot;&gt;More Resources&lt;/h3&gt;
+&lt;p&gt;This is just to get you started but if you are ready to dig through more information, be sure to check out &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for the documentation. If you would like to add commenting to your pages, I recommend checking out &lt;a href=&quot;https://staticman.net/docs/&quot;&gt;Staticman&lt;/a&gt; since it is free and open sourced! I hope you liked this tutorial and that it was easy to follow. Now go make beautiful websites!&lt;/p&gt;
+</description>
+        <pubDate>2018-09-16</pubDate>
+        <link>http://localhost:4000/articles/2018-09/make-a-free-blog-with-jekyll-and-github-pages</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2018-09/make-a-free-blog-with-jekyll-and-github-pages</guid>
+        
+        <category>zines</category>
+        
+        <category>programming</category>
+        
+        <category>resources</category>
+        
+        <category>tutorial</category>
+        
+        
+        <category>cool stuff</category>
+        
+      </item>
+    
+      <item>
         <title>Zine Culture + Computer Science</title>
-        <description>&lt;p&gt;I am not a book reader. It is difficult for me to sit down and just get ‘absorbed’ in a book. However, with comics? It’s different. Comics are dynamic, graphic, and play out like a film. The same goes with zine’s. They are colorful, unique, filled with tid bits of information displayed in fun ways. There are zine’s for pretty much any subject you can imagine, this includes computer science! I wanted to share some unique comics/zine’s that exist on the web that are out to teach cool things about programming and computers with a more visual twist.&lt;/p&gt;
+        <description>&lt;p&gt;I am not a book reader. It is difficult for me to sit down and just get ‘absorbed’ in a book. However, with comics? It’s different. Comics are dynamic, graphic, and play out like a film. The same goes with zine’s. They are colorful, unique, filled with tidbits of information displayed in fun ways. There are zine’s for pretty much any subject you can imagine, this includes computer science! I wanted to share some unique comics/zine’s that exist on the web that are out to teach cool things about programming and computers with a visual twist.&lt;/p&gt;
 
 &lt;h2 id=&quot;julia-evans&quot;&gt;Julia Evans&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;http://i66.tinypic.com/wjh1md.png&quot; alt=&quot;&quot; /&gt;
@@ -20,27 +151,35 @@ This girl has an amazing mission statement:&lt;/p&gt;
   &lt;p&gt;I’m trying to create a small corner of the internet which is never condescending or rude or dismissive and where I just talk about learning hard things and doing hard things in a practical and friendly way.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Julia experiments with alternative ways to teach hard concepts through making zines. She is a badass software developer from Montreal and she focuses on deeply understanding the underlying systems essential to do technically innovative work. Some of the zine’s she wrote include: Profiling &amp;amp; Tracing with Perf, Let’s Learn tcpdump!, and Linux Debugging Tools You’ll Love. &lt;a href=&quot;https://jvns.ca/zines/&quot;&gt;Be sure to check out her website and view all of her amazing work!&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Julia experiments with alternative ways to teach hard concepts through making zines. She is an awesome software developer for Stripe from Montreal and she focuses on deeply understanding the underlying systems essential to doing technically innovative work. Some of the zine’s she wrote include: Profiling &amp;amp; Tracing with Perf, Let’s Learn tcpdump!, and Linux Debugging Tools You’ll Love. &lt;a href=&quot;https://jvns.ca/zines/&quot;&gt;Be sure to check out her website and view all of her amazing work!&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;bubblesort-zines&quot;&gt;BubbleSort Zines&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;http://i68.tinypic.com/2lxxg28.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Amy is an alumni of MIT and created this project out of a dream of hers to create a series of zines that cover computer science concepts in an accessible way. She left her job at Airbnb after a successful Kickstarter compaign and BubbleSort Zines was born! Amy’s goal is to frame computer science fundamentals in a way that is much more accessable to those who may not think they have a place in the subject. It is about improving diversity and reaching underrepresented demographics. It is less about getting young girls interested in math and science and more about making them feel welcome, included, and supported.&lt;/p&gt;
+&lt;p&gt;Amy is an alumni of MIT and created this project out of a dream of hers to make a series of zines that cover computer science concepts in an accessible way. She left her job at Airbnb after a successful Kickstarter campaign and BubbleSort Zines was born! Amy’s goal is to frame computer science fundamentals in a way that is much more accessible to those who may not think they have a place in the subject. It is about improving diversity and reaching underrepresented demographics. It is less about getting young girls interested in math and science and more about making them feel welcome, included, and supported.&lt;/p&gt;
 
-&lt;p&gt;This is so relatable for me. My first experience with programming was on the web back when I was in middle school but I never thought that it was an actual career path. I fell behind in math and science subjects and was never encouraged to try harder. It wasn’t until later in life that I realized I love math and science! More importantly, I &lt;em&gt;love&lt;/em&gt; programming! Framing technical subjects in a way that is more appealing can help encourage younger girls to stick with it. Math? It’s hard! Programming? It’s hard! But that is what makes it so rewarding.&lt;/p&gt;
+&lt;p&gt;This is relatable for me personally. My first experience with programming was with web development back in my middle school days. However, I never thought that this was an actual career path. I fell behind in math and science subjects as I grew up and was never encouraged to try harder. It wasn’t until later in life that I realized I love these subjects! More importantly, I love programming! Framing technical subjects in a way that is more appealing can help encourage younger girls to stick with it. Math? It’s hard! Programming? It’s hard! But that’s what makes it so rewarding.&lt;/p&gt;
 
 &lt;p&gt;To support Amy’s initiative and also get some rad t-shirts, &lt;a href=&quot;https://shop.bubblesort.io/collections/all&quot;&gt;check out her website and buy everything!&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;glitch-you-got-this&quot;&gt;Glitch You Got This!&lt;/h2&gt;
 &lt;p&gt;&lt;img src=&quot;http://i68.tinypic.com/4kis11.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;If you aren’t already familiar with &lt;a href=&quot;https://glitch.com/&quot;&gt;Glitch&lt;/a&gt;, I highly recommend checking them out. It is a friendly community where anyone can create an app or website instantly. Their web IDE compiles and updates everything as you type and can even allow you to code with your friends! It is brought to you by the same team that create Slack. This same group created a couple of really cool zines that focus on web app technologies.&lt;/p&gt;
+&lt;p&gt;If you aren’t already familiar with &lt;a href=&quot;https://glitch.com/&quot;&gt;Glitch&lt;/a&gt;, I highly recommend checking them out. It is a friendly community where anyone can create an app or website instantly. Their web IDE compiles and updates everything as you type and can even allow you to code with your friends! It is brought to you by the same team that created Slack.&lt;/p&gt;
 
-&lt;p&gt;You Got This! has two parts: the first is &lt;a href=&quot;https://glitch.com/you-got-this&quot;&gt;how to make web apps with Node.js&lt;/a&gt;, the second is &lt;a href=&quot;https://glitch.com/you-got-this/2&quot;&gt;how to make web apps with React.js&lt;/a&gt;. They focus on the key concepts for creating web apps with these frameworks, stories on how developers carved their own paths into coding, tips from experts, and more. They are very nicely illustrated and super colorful. I highly recommend downloading and following along. The best part is you can use Glitch to experiment with these frameworks.&lt;/p&gt;
+&lt;p&gt;Since Glitch is focused on web apps, they decided to create some awesome zine’s teaching users how to get started. You Got This! has two parts: the first is &lt;a href=&quot;https://glitch.com/you-got-this&quot;&gt;how to make web apps with Node.js&lt;/a&gt;, the second is &lt;a href=&quot;https://glitch.com/you-got-this/2&quot;&gt;how to make web apps with React.js&lt;/a&gt;. They focus on the key concepts for creating web apps with these frameworks, include stories on how developers carved their own path into coding, tips from experts, and more. They are very nicely illustrated and super colorful. I highly recommend downloading and following along. The best part is you can use Glitch to experiment with your code while reading along.&lt;/p&gt;
 </description>
-        <pubDate>2018-09-15</pubDate>
+        <pubDate>2018-09-16</pubDate>
         <link>http://localhost:4000/articles/2018-09/zine-culture-and-computer-science</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2018-09/zine-culture-and-computer-science</guid>
+        
+        <category>zines</category>
+        
+        <category>programming</category>
+        
+        <category>resources</category>
+        
+        <category>tutorial</category>
         
         
         <category>cool stuff</category>

@@ -6,7 +6,7 @@
 title: geek girl codes
 email: stowellk@mail.gvsu.edu
 description: A super rad girl dev blog.
-url: # the base hostname & protocol for your site
+url: misskaseyann.github.io
 keywords: ["blog", "developer", "programming", "girl", "python"]
 
 #
@@ -38,12 +38,12 @@ owner:
   job: "a dev blog"
   bio: "making stuff with art + code."
   email: stowellk@mail.gvsu.edu
-  disqus-shortname:
+  disqus-shortname: misskaseyann-github-io
   twitter: #username
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-125885657-1
     verify:
     ad-client:
     ad-slot:

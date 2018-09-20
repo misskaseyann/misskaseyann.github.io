@@ -5,9 +5,52 @@
     <description>A super rad girl dev blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2018-09-16</pubDate>
-    <lastBuildDate>Sun, 16 Sep 2018 16:59:15 -0400</lastBuildDate>
+    <pubDate>2018-09-20</pubDate>
+    <lastBuildDate>Thu, 20 Sep 2018 08:28:06 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Pre Grace Hopper Celebration</title>
+        <description>&lt;h2 id=&quot;what-is-grace-hopper-celebration&quot;&gt;What is Grace Hopper Celebration?&lt;/h2&gt;
+&lt;p&gt;Grace Hopper Celebration (GHC) is the world’s largest gathering of women technologists. It was co-founded 24 years ago in 1994 by Dr. Anita Borg and Dr. Telle Whitney. They wanted to celebrate the achievements of women who were advancing technology but were often not known about. This is why it is a celebration! It is also named after the amazing Admiral Grace Hopper who was a computer scientist for the United States Navy and is a pioneer of computer programming. She invented one of the first ever compiler tools.&lt;/p&gt;
+
+&lt;h3 id=&quot;expo-hall--technology-showcase&quot;&gt;Expo Hall + Technology Showcase&lt;/h3&gt;
+&lt;p&gt;GHC hosts a huge Expo that includes a Career Fair, an Interview Hall, and a Technology Showcase. This is a great way to network with companies looking to recruit women in the technology industry. Companies such as Google, Microsoft, and Apple, along with other smaller corporations have booths (and sometimes whole areas) with engineers and recruiters happy to talk to visitors. Tons of these corporations conduct on-location interviews for jobs and internships. As a Hopper attendee, you will receive tons of on-site interview requests for many amazing companies. Be prepared for your inbox to overflow! The Technology Showcase will be a place for companies to show off their products and services. Start-ups to Fortune 500 companies spotlight their best products, research, and innovative breakthroughs. Presentations from companies such as Google, IBM, Amazon, Microsoft, Disney, and more will be featured at the Technology Showcase Theater.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://ghc.anitab.org/wp-content/uploads/sites/2/2018/06/314-1024x683.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;sessions&quot;&gt;Sessions&lt;/h3&gt;
+&lt;p&gt;The sessions cover topics such as technology, emerging technology, products, career, open source, and organizational transformation. There are workshops, an open source code day, and professional development opportunities. No matter someones skill level or career level, there are sessions that will appeal to everyone.&lt;/p&gt;
+
+&lt;h3 id=&quot;parties&quot;&gt;Parties&lt;/h3&gt;
+&lt;p&gt;Wednesday and Thursday night are when different corporations host after parties for attendees. These are invite only which can be obtained before the conference or by visiting corporations in the expo hall. These parties are about socializing and networking with different corporations. Some will even do breakfasts! Friday nights party is a large celebration that all attendees are able to attend. It includes a huge dance-party, socializing, food, and freebies.&lt;/p&gt;
+
+&lt;h2 id=&quot;grace-hopper-scholars&quot;&gt;Grace Hopper Scholars&lt;/h2&gt;
+&lt;p&gt;GHC scholarships provide funds for undergraduate students, graduate students, and faculty to attend the three day celebration. The scholarship includes registration, hotel accommodations, airfare, and travel stipend. GHC looks for students who are active in their community, including being involved with campus computing/STEM clubs and working towards the advancement of women in computing.&lt;/p&gt;
+
+&lt;p&gt;I am proud to say that I earned this scholarship after writing two essays and getting a letter of recomendation from a faculty member (shoutout to Professor Woodring). Without the scholarship, I wouldn’t have been able to go to the celebration. So, I will be taking full advantage of this opportunity and bringing back all my learnings to my community and school in order to further the cause of celebrating women in engineering and computing careers.&lt;/p&gt;
+
+&lt;p&gt;If you are interested in becoming a Scholar for next year, the applications open in January. &lt;a href=&quot;https://ghc.anitab.org/2018-student-academic/scholarships/&quot;&gt;Click here to learn more.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;hopper-2018&quot;&gt;Hopper 2018&lt;/h2&gt;
+&lt;p&gt;GHC 18 is being hosted in Houston, TX from September 26th-28th in partnership with ACM. It will be hosted at the &lt;a href=&quot;https://www.grbhouston.com/&quot;&gt;George R. Brown Convention Center&lt;/a&gt; and some events hosted at the &lt;a href=&quot;http://www.houstontoyotacenter.com/&quot;&gt;Toyota Center&lt;/a&gt;. The keynote speakers include Justine Cassell who is the Associate Dean of Technology Strategy and Impact at Carnegie Mellon University, Jessica Matthews who is the Founder and CEO of Uncharted Power, and Padmasree Warrior who is the CEO and Chief Development Officer of NIO U.S.&lt;/p&gt;
+
+&lt;p&gt;I will be flying out Tuesday morning and can’t wait to share the whole experience!&lt;/p&gt;
+</description>
+        <pubDate>2018-09-20</pubDate>
+        <link>http://localhost:4000/articles/2018-09/pre-grace-hopper-celebration</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2018-09/pre-grace-hopper-celebration</guid>
+        
+        <category>grace hopper celebration</category>
+        
+        <category>conference</category>
+        
+        <category>personal</category>
+        
+        
+        <category>blog</category>
+        
+      </item>
     
       <item>
         <title>Make a Free Blog with Jekyll and GitHub Pages</title>
@@ -123,11 +166,11 @@ I hope you like it!
 &lt;h3 id=&quot;more-resources&quot;&gt;More Resources&lt;/h3&gt;
 &lt;p&gt;This is just to get you started but if you are ready to dig through more information, be sure to check out &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for the documentation. If you would like to add commenting to your pages, I recommend checking out &lt;a href=&quot;https://staticman.net/docs/&quot;&gt;Staticman&lt;/a&gt; since it is free and open sourced! I hope you liked this tutorial and that it was easy to follow. Now go make beautiful websites!&lt;/p&gt;
 </description>
-        <pubDate>2018-09-16</pubDate>
+        <pubDate>2018-09-20</pubDate>
         <link>http://localhost:4000/articles/2018-09/make-a-free-blog-with-jekyll-and-github-pages</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2018-09/make-a-free-blog-with-jekyll-and-github-pages</guid>
         
-        <category>zines</category>
+        <category>jekyll</category>
         
         <category>programming</category>
         
@@ -135,8 +178,14 @@ I hope you like it!
         
         <category>tutorial</category>
         
+        <category>github</category>
         
-        <category>cool stuff</category>
+        <category>web</category>
+        
+        <category>ruby</category>
+        
+        
+        <category>tutorial</category>
         
       </item>
     
@@ -169,7 +218,7 @@ This girl has an amazing mission statement:&lt;/p&gt;
 
 &lt;p&gt;Since Glitch is focused on web apps, they decided to create some awesome zine’s teaching users how to get started. You Got This! has two parts: the first is &lt;a href=&quot;https://glitch.com/you-got-this&quot;&gt;how to make web apps with Node.js&lt;/a&gt;, the second is &lt;a href=&quot;https://glitch.com/you-got-this/2&quot;&gt;how to make web apps with React.js&lt;/a&gt;. They focus on the key concepts for creating web apps with these frameworks, include stories on how developers carved their own path into coding, tips from experts, and more. They are very nicely illustrated and super colorful. I highly recommend downloading and following along. The best part is you can use Glitch to experiment with your code while reading along.&lt;/p&gt;
 </description>
-        <pubDate>2018-09-16</pubDate>
+        <pubDate>2018-09-20</pubDate>
         <link>http://localhost:4000/articles/2018-09/zine-culture-and-computer-science</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2018-09/zine-culture-and-computer-science</guid>
         

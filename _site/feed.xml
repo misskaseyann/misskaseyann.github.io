@@ -5,9 +5,33 @@
     <description>A super rad girl dev blog.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>2018-09-20</pubDate>
-    <lastBuildDate>Thu, 20 Sep 2018 08:28:06 -0400</lastBuildDate>
+    <pubDate>2018-09-24</pubDate>
+    <lastBuildDate>Mon, 24 Sep 2018 20:45:11 -0400</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Manually Updating oh-my-zsh</title>
+        <description>&lt;p&gt;If you are running oh-my-zsh on your Mac through iTerm and want to know how to update it, just run this command…&lt;/p&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;upgrade_oh_my_zsh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;You are welcome future me ;)&lt;/p&gt;
+</description>
+        <pubDate>2018-09-24</pubDate>
+        <link>http://localhost:4000/articles/2018-09/manually-updating-oh-my-zsh</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2018-09/manually-updating-oh-my-zsh</guid>
+        
+        <category>programming</category>
+        
+        <category>tutorial</category>
+        
+        <category>oh-my-zsh</category>
+        
+        <category>help</category>
+        
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Pre Grace Hopper Celebration</title>
@@ -37,7 +61,7 @@
 
 &lt;p&gt;I will be flying out Tuesday morning and can’t wait to share the whole experience!&lt;/p&gt;
 </description>
-        <pubDate>2018-09-20</pubDate>
+        <pubDate>2018-09-24</pubDate>
         <link>http://localhost:4000/articles/2018-09/pre-grace-hopper-celebration</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2018-09/pre-grace-hopper-celebration</guid>
         
@@ -166,7 +190,7 @@ I hope you like it!
 &lt;h3 id=&quot;more-resources&quot;&gt;More Resources&lt;/h3&gt;
 &lt;p&gt;This is just to get you started but if you are ready to dig through more information, be sure to check out &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; for the documentation. If you would like to add commenting to your pages, I recommend checking out &lt;a href=&quot;https://staticman.net/docs/&quot;&gt;Staticman&lt;/a&gt; since it is free and open sourced! I hope you liked this tutorial and that it was easy to follow. Now go make beautiful websites!&lt;/p&gt;
 </description>
-        <pubDate>2018-09-20</pubDate>
+        <pubDate>2018-09-24</pubDate>
         <link>http://localhost:4000/articles/2018-09/make-a-free-blog-with-jekyll-and-github-pages</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2018-09/make-a-free-blog-with-jekyll-and-github-pages</guid>
         
@@ -218,7 +242,7 @@ This girl has an amazing mission statement:&lt;/p&gt;
 
 &lt;p&gt;Since Glitch is focused on web apps, they decided to create some awesome zine’s teaching users how to get started. You Got This! has two parts: the first is &lt;a href=&quot;https://glitch.com/you-got-this&quot;&gt;how to make web apps with Node.js&lt;/a&gt;, the second is &lt;a href=&quot;https://glitch.com/you-got-this/2&quot;&gt;how to make web apps with React.js&lt;/a&gt;. They focus on the key concepts for creating web apps with these frameworks, include stories on how developers carved their own path into coding, tips from experts, and more. They are very nicely illustrated and super colorful. I highly recommend downloading and following along. The best part is you can use Glitch to experiment with your code while reading along.&lt;/p&gt;
 </description>
-        <pubDate>2018-09-20</pubDate>
+        <pubDate>2018-09-24</pubDate>
         <link>http://localhost:4000/articles/2018-09/zine-culture-and-computer-science</link>
         <guid isPermaLink="true">http://localhost:4000/articles/2018-09/zine-culture-and-computer-science</guid>
         
